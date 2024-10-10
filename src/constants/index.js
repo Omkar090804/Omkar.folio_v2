@@ -170,7 +170,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Swayam proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Omkar proved me wrong.",
       name: "Prajakta",
       designation: "Software Engineer",
       company: "TCS",
