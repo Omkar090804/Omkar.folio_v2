@@ -48,7 +48,7 @@ const About = () => {
         technical know-how and social media expertise. Eager to create robust applications using my Java
         programming skills and web development, and excel as a leader who can efficiently lead a team.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-4">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
