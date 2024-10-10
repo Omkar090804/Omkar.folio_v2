@@ -69,7 +69,11 @@ import {
       icon: creator,
       link:'https://github.com/Omkar090804',
     },
-   
+    {
+      title: "Content Creator",
+      icon: creator,
+      link:'https://youtube.com/@omkardarekar3586?si=pLj5wtldZILg92-1',
+    },
   ];
   
   const technologies = [
