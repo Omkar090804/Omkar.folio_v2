@@ -21,28 +21,25 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-<<<<<<< HEAD
-          <img src={odlogo} alt="Omkar's logo" className='w-9 h-9 object-contain' /> {/* Updated alt text */}
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Omkar Darekar&nbsp;
+          <img src={odlogo} alt="Omkar's logo" className='w-9 h-9 object-contain' />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Omkar Darekar&nbsp;
             <span className="sm:block hidden"></span>
           </p>
-=======
-              <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-        <p className="text-white text-[18px] font-bold cursor-pointer flex">Omkar Darekar&nbsp;
-         <span className="sm:block hidden"></span></p>
->>>>>>> 3b8eac3fc43875cb5ed696c4fce418ec8f86202e
         </Link>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
+          {navLinks.map((link) => (  // Ensure 'link' is in lowercase
             <li
-              key={Link.id}
-              className={`${active === Link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
+              key={link.id}
+              className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -50,18 +47,18 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>  // for mobile devices where less pscae so hide opstion can be seen only if clicked on them
+          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {navLinks.map((Link) => (
+              {navLinks.map((link) => (  // Ensure 'link' is in lowercase
                 <li
-                  key={Link.id}
-                  className={`${active === Link.title ? "text-white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
+                  key={link.id}
+                  className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(Link.title);
+                    setActive(link.title);
                   }}
                 >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
