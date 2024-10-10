@@ -171,9 +171,9 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Swayam proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      name: "Prajakta",
+      designation: "Software Engineer",
+      company: "TCS",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
    
