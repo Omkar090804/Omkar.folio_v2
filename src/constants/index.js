@@ -21,6 +21,7 @@ import {
     shopify,
     carrent,
     feedback_system,
+    investment_portfolio,
     object_detection,
     mnnist,
     jobit,
@@ -33,6 +34,8 @@ import {
     frameskip,
     offmind,
     java,
+    metamask,
+    bioledger,
   } from "../assets";
   
   
@@ -57,17 +60,17 @@ import {
     {
       title: "Web Developer",
       icon: web,
-      link:'https://github.com/Omkar090804',
+      link:'https://github.com/stars/Omkar090804/lists/webdev',
     },
     {
       title: "Java Enthusiast",
       icon: mobile,
-      link:'https://github.com/Omkar090804',
+      link:'https://github.com/stars/Omkar090804/lists/java',
     },
     {
       title: " Some DIY's",
       icon: creator,
-      link:'https://github.com/Omkar090804',
+      link:'https://github.com/stars/Omkar090804/lists/some-diy-s',
     },
     {
       title: "Content Creator",
@@ -177,7 +180,7 @@ import {
         "I thought it was impossible to make a website as beautiful as our product, but Omkar proved me wrong.",
       name: "Prajakta",
       designation: "Software Engineer",
-      company: "TCS",
+      company: "Bajaj",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
    
@@ -202,7 +205,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: feedback_system,
+      image: investment_portfolio,
       source_code_link: "https://github.com/Omkar090804/InvestmentPortfolioTracker",
     },
 
@@ -224,7 +227,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: object_detection,
+      image: bioledger,
       source_code_link: "https://github.com/Omkar090804/HACK1.0",
     },
 
@@ -246,7 +249,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: mnnist,
+      image: metamask,
       source_code_link: "https://github.com/Omkar090804/Temple_Fund_Management_System",
     },
     

@@ -38,7 +38,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import feedback_system from "./feedback_system.png";
+import investment_portfolio from './investment_portfolio.png';
 import object_detection from "./object_detection_upload.png";
+import bioledger from "./bioledger.png";
+import metamask from "./metamask.png";
 import mnnist from "./mnnist.png";
 
 export {
@@ -76,7 +79,10 @@ export {
   jobit,
   tripguide,
   feedback_system,
+  investment_portfolio,
+  metamask,
   object_detection,
   mnnist,
   java,
+  bioledger,
 };
