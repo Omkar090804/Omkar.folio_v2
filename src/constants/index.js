@@ -173,19 +173,7 @@ import {
     },
 
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Omkar proved me wrong.",
-      name: "Prajakta",
-      designation: "Software Engineer",
-      company: "Bajaj",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
    
-  ];
-  
   const projects = [
     {
       name: "Investment Portfolio Tracker",
@@ -257,4 +245,4 @@ import {
   
   
 
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
