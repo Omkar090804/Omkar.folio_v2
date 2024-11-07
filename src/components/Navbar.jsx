@@ -47,7 +47,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Connect
+             Socials
             </a>
           </li>
         </ul>
