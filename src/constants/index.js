@@ -40,8 +40,7 @@ import {
   } from "../assets";
   
   
-
-
+ 
   export const navLinks = [
     {
       id: "about",
@@ -55,6 +54,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+   
   ];
   
   const services = [
@@ -174,19 +174,7 @@ import {
     },
 
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Omkar proved me wrong.",
-      name: "Prajakta",
-      designation: "Software Engineer",
-      company: "Bajaj",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
    
-  ];
-  
   const projects = [
     {
       name: "Investment Portfolio Tracker",
@@ -253,6 +241,28 @@ import {
       image: metamask,
       source_code_link: "https://github.com/Omkar090804/Temple_Fund_Management_System",
     },
+
+       {
+      name: "SIT Book Store",
+      description:
+        "SIT Book Store is a React-based application where users can browse books, add them to a cart, and manage orders effortlessly. It provides a seamless and user-friendly platform for all your book shopping needs.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metamask,
+      source_code_link: "https://github.com/Omkar090804/ecommerce01",
+    },
     
     {
       name: "SIT Book Store",
@@ -280,4 +290,4 @@ import {
   
   
 
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';            //tilting when hovered over cards
+import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -30,11 +30,19 @@ const ServiceCard = ({ index, title, icon, link }) => {
       </a>
     </Tilt>
   );
-}
+};
 
 const About = () => {
   return (
-    <div style={{ backgroundColor: '#000000', padding: '20px' }}>
+    <div
+      style={{
+        background: 'url("path_to_hero_image.jpg") no-repeat center center/cover', // Background image
+        backgroundColor: '#000000', // Fallback color in case the image doesn't load
+        padding: '20px',
+        width: '100%',
+        minHeight: '100vh', // Full viewport height
+      }}
+    >
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -48,13 +56,13 @@ const About = () => {
         technical know-how and social media expertise. Eager to create robust applications using my Java
         programming skills and web development, and excel as a leader who can efficiently lead a team.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-4">
+      <div className="mt-20 flex flex-wrap gap-4 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
     </div>
   );
-}
+};
 
 export default SectionWrapper(About, "about");
