@@ -240,6 +240,28 @@ import {
       image: metamask,
       source_code_link: "https://github.com/Omkar090804/Temple_Fund_Management_System",
     },
+
+       {
+      name: "SIT Book Store",
+      description:
+        "SIT Book Store is a React-based application where users can browse books, add them to a cart, and manage orders effortlessly. It provides a seamless and user-friendly platform for all your book shopping needs.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metamask,
+      source_code_link: "https://github.com/Omkar090804/ecommerce01",
+    },
     
   ];
   
