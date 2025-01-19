@@ -182,7 +182,7 @@ import {
         "It is a web-based application designed to help investors manage their investment portfolios efficiently. This platform provides users with a comprehensive toolset to monitor, analyze, and optimize their investments in real-time..",
       tags: [
         {
-          name: "JAVA",
+          name: "JAVA", 
           color: "blue-text-gradient",
         },
         {
